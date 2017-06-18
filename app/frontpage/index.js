@@ -5,12 +5,14 @@ import TextContent from './textcontent.js';
 import RegistryList from './registrylist.js';
 
 export default class FrontPage extends React.Component{
+
+
   render(){
     return(
       <View style={styles.container}>
-        <Header />
-        <TextContent />
-        <RegistryList />
+      <Header />
+      <TextContent />
+      <RegistryList />
       </View>
     );
   }
